@@ -14,7 +14,7 @@ html,body{
     --text-light: #686666da;
     --bg-colour: #0f0f0f;
     --white: #ffffff;
-    --midnight: #104f55;
+    --midnight: #1e3275;
 
     /* gradient color */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -202,7 +202,7 @@ main .site-title .btn:hover{
 /* -------X--- Site title ---X------- */
 
 /* ----------- Carousel ----------- */
-
+/*
 main .blog{
     background: url('../assets/Abract01.png');
     background-repeat: no-repeat;
@@ -211,6 +211,7 @@ main .blog{
     width: 100%;
     background-size: 65%;
 }
+*/
 
 main .blog .blog-post{
     padding-top: 6rem;
@@ -229,6 +230,10 @@ main .blog-post .blog-content{
 main .blog-content .blog-title{
     padding: 2rem 0;
 
+}
+
+main .blog-content h3{
+    font-size: 2.5rem;
 }
 
 main .blog-content .btn-blog{
@@ -250,6 +255,7 @@ main .blog-content span{
 main .site-content{
     display: grid;
     grid-template-columns: 70% 30%;
+    padding-top: 6rem;
 }
 
 main .post-content{
@@ -265,9 +271,9 @@ main .site-content .post-content > .post-image .post-info{
     background: var(--sky);
     padding: 1rem;
     position: absolute;
-    bottom: 0%;
-    left: 20vw;
-    border-radius: 3rem;
+    left: 2rem;
+    bottom: 1.2rem;
+    border-radius: 0%;
 }
 
 main .site-content .post-content > .post-image > div{
