@@ -38,6 +38,13 @@ $(document).ready(function(){
         }, 1000);
     });
 
+    //click to scroll up
+    $('.explore').click(function(){
+        $('html, body').animate({
+            scrollTop: 1600
+        }, 1000);
+    });
+
     // AOS Instance
     AOS.init();
 });
