@@ -270,8 +270,19 @@ h3:after {
 }
 
 table, th, td {
-    border: 1px solid black;
-  }
+    text-align: left;
+    font-family: var(--Lexend);
+    color: var(--text-light);
+    font-size: 0.75rem;
+}
+
+table{
+    padding-bottom: 3rem;
+}
+
+img {
+    padding-right: 2rem;
+}
 
 .component{
     font-family: var(--Lexend);
