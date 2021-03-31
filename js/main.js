@@ -41,7 +41,7 @@ $(document).ready(function(){
     //click to scroll up
     $('.explore').click(function(){
         $('html, body').animate({
-            scrollTop: 1600
+            scrollTop: 1500
         }, 1000);
     });
 
