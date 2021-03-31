@@ -80,10 +80,23 @@ p{
     color: var(--text-light);
 }
 
+ul{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+}
+
 .center {
     margin: auto;
     width: 60%;
-  }
+}
+
+.bottom{
+    padding-bottom: 3rem;
+}
+
+li{
+    padding-bottom: 0.5rem;
+}
 
 /* ------X--- Global Classes ---X------ */
 
