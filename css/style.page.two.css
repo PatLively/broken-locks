@@ -15,6 +15,7 @@ html,body{
     --bg-colour: #0f0f0f;
     --white: #ffffff;
     --midnight: #104b4a;
+    --bg-light: #f3f3f3;
 
     /* gradient color */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -92,7 +93,7 @@ p{
 
 /* ---------- navbar ---------- */
 .nav{
-    background:var(--midnight);
+    background:var(--bg-light);
     padding:0 2rem;
     height:0rem;
     min-height: 10vh;
@@ -142,15 +143,15 @@ p{
 }
 
 .nav .nav-items .nav-link a{
-    color: var(--white);
+    color: var(--text-gray);
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--white);
+    background-color: var(--midnight);
 }
 
 .nav .nav-items .nav-link:hover a{
-    color: var(--midnight);
+    color: var(--white);
 }
 
 .nav .nav-brand a{
@@ -167,7 +168,7 @@ p{
 
 .nav .social i{
     padding: 0.2rem;
-    color: var(--white);
+    color: var(--text-gray);
 }
 
 .nav .social i:hover{
@@ -316,7 +317,7 @@ main .post-content .post-title a{
 
 .site-content .sidebar .popular-post .post-content{
     padding: 1rem 0;
-    background-color: var(--midnight);
+    background-color: var(--bg-light);
     border-radius: 2rem;
 }
 
@@ -335,7 +336,7 @@ main .post-content .post-title a{
 
 .site-content .sidebar .popular-post .post-title a{
     font-size: 1.25rem;
-    color: var(--white);
+    color: var(--text-gray);
 }
 
 /* -------X--- Sidebar ---X------- */
