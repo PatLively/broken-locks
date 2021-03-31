@@ -90,10 +90,6 @@ ul{
     width: 60%;
 }
 
-.bottom{
-    padding-bottom: 3rem;
-}
-
 li{
     padding-bottom: 0.5rem;
     font-family: var(--Lexend);
@@ -230,6 +226,10 @@ main .percent{
 }
 
 /* -------X--- Header & Rating ---X------- */
+
+main{
+    padding-bottom: 1rem;
+}
 
 /* ----------- Dividor ----------- */
 
