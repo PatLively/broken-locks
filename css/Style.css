@@ -347,10 +347,13 @@ main .post-content .post-title a{
 
 .site-content .sidebar .popular-post .post-content{
     padding: 1rem 0;
+    background-color: var(--bg-light);
+    border-radius: 2rem;
 }
 
 .site-content .sidebar .popular-post h2{
-    padding-top: 8rem;
+    font-size: 2rem;
+    color: var(--text-gray);
 }
 
 .site-content .sidebar .popular-post .post-info{
@@ -362,7 +365,8 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .popular-post .post-title a{
-    font-size: 1rem;
+    font-size: 1.25rem;
+    color: var(--text-gray);
 }
 
 /* -------X--- Sidebar ---X------- */
